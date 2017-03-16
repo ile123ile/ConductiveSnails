@@ -10,6 +10,7 @@ public class Screen extends JApplet
 		Container c = getContentPane ();
 		c.setBackground(Color.GRAY);
 		this.setSize(new Dimension (600, 600));
+		int k = 0;
 	}
 	public void paint (Graphics canvas)
 	{
@@ -18,5 +19,6 @@ public class Screen extends JApplet
 		canvas.fillRect (500, 500, 20, 50);
 		canvas.setColor (Color.red);
 		canvas.fillRect (100, 100, 20, 50);
+		//repaint ();
 	}
 }
